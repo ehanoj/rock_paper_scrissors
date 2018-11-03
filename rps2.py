@@ -14,7 +14,7 @@ def generate_computer_play():
 
 def evaluate_game(human, computer):
     if human == computer:
-        win = 'tie'
+        win = 'tie---'
     elif human == 'rock' and computer == 'paper':
         win = 'computer'
     elif human == 'rock' and computer == 'scissors':
